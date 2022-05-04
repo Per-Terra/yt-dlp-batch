@@ -15,11 +15,12 @@ yt-dlp-batch は、オンライン動画を一括ダウンロードするため�
 ### 設定
 
 - `yt-dlp-batch.bat` を直接編集することで、デフォルトの設定を変更できます
+- [yt-dlp-batch-audio.bat](examples/yt-dlp-batch-audio.bat) は、音声のみをダウンロードするように設定した例です
 
 ### ブラウザのクッキーを使用する
 
 - デフォルトでは、Google Chrome のクッキーを使用します
-  - Firefox の場合は、`--cookies-from-browser chrome` オプションを `--cookies-from-browser firefox` に変更してください
+  - Firefox の場合は、 `--cookies-from-browser chrome` オプションを `--cookies-from-browser firefox` に変更してください
 - `youtube.com_cookies.txt` が同じディレクトリに存在する場合、それが使用されます
   - ファイル名を変更することもできます
   - クッキーをブラウザから取得するには、拡張機能を使用してください

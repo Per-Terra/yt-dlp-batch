@@ -17,6 +17,7 @@ yt-dlp-batch is a very simple batch downloader for online videos.
 ### Configuration
 
 - You can edit `yt-dlp-batch.bat` directly to change the default configuration
+- [yt-dlp-batch-auido.bat](examples/yt-dlp-batch-audio.bat) is an example of the audio only version
 
 ### Use browser cookies
 
