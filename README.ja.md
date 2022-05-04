@@ -2,6 +2,13 @@
 
 yt-dlp-batch は、オンライン動画を一括ダウンロードするためのシンプルなバッチダウンロードツールです。
 
+## ダウンロード
+
+下記のリンクを右クリックして、「名前を付けて保存」を選択してください。
+
+**[yt-dlp-batch.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/yt-dlp-batch.bat)**  
+**[yt-dlp-batch-audio.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/examples/yt-dlp-batch-audio.bat)**
+
 ## 使い方
 
 ### インストール

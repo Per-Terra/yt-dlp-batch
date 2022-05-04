@@ -4,6 +4,13 @@ yt-dlp-batch is a very simple batch downloader for online videos.
 
 日本語版は [README.ja.md](README.ja.md) にあります。
 
+## Download
+
+Right click on the link below and select "Save link as..."
+
+**[yt-dlp-batch.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/yt-dlp-batch.bat)**  
+**[yt-dlp-batch-audio.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/examples/yt-dlp-batch-audio.bat)**
+
 ## How to use
 
 ### Instalattion
