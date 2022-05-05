@@ -1,9 +1,9 @@
 ::
-:: yt-dlp Batch
+:: yt-dlp-batch
+:: https://github.com/Per-Terra/yt-dlp-batch
 ::
 :: Copyright (c) 2022 Per-Terra
-:: Released under the MIT license
-:: https://opensource.org/licenses/mit-license.php
+:: This software is licensed under the MIT license, see LICENSE.
 ::
 :: Check yt-dlp repository for more options
 :: https://github.com/yt-dlp/yt-dlp
@@ -60,10 +60,10 @@ if %ERRORLEVEL% neq 0 (
 )
 
 :initialize
-title yt-dlp Batch
+title yt-dlp-batch
 echo :::::::::::::::::::::::::::::::::
 echo ::                             ::
-echo :: yt-dlp Batch                ::
+echo :: yt-dlp-batch                ::
 echo :: download video using yt-dlp ::
 echo ::                             ::
 echo :::::::::::::::::::::::::::::::::

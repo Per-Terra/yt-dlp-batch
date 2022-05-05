@@ -9,17 +9,21 @@ yt-dlp-batch is a very simple batch downloader for online videos.
 Right click on the link below and select "Save link as..."
 
 **[yt-dlp-batch.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/yt-dlp-batch.bat)**  
-**[yt-dlp-batch-audio.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/examples/yt-dlp-batch-audio.bat)**
+**[yt-dlp-batch-audio.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/examples/yt-dlp-batch-audio.bat)** for audio only
 
 ## How to use
 
 ### Instalattion
 
-- (required) Install yt-dlp
-- (optional/recomended) Install ffmpeg
+Place the following packages in the same directory as the batch file:
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) (required)
+- [ffmpeg](https://www.ffmpeg.org/) (optional/recomended)
   - to get the audio only version of the video
-- (optional/recomended) Install aria2c
+- [aria2c](https://aria2.github.io/) (optional/recomended)
   - to get download faster
+
+Note: If you have added these packeages to your PATH, you don't need to place them in the same directory.
 
 ### Configuration
 

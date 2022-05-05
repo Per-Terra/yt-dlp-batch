@@ -7,17 +7,21 @@ yt-dlp-batch は、オンライン動画を一括ダウンロードするため�
 下記のリンクを右クリックして、「名前を付けて保存」を選択してください。
 
 **[yt-dlp-batch.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/yt-dlp-batch.bat)**  
-**[yt-dlp-batch-audio.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/examples/yt-dlp-batch-audio.bat)**
+**[yt-dlp-batch-audio.bat](https://raw.githubusercontent.com/Per-Terra/yt-dlp-batch/main/examples/yt-dlp-batch-audio.bat)** (音声のみ)
 
 ## 使い方
 
 ### インストール
 
-- (必須) yt-dlp のインストール
-- (推奨) ffmpeg のインストール
-  - 音声を抽出する場合などに利用します
-- (推奨) aria2c のインストール
-  - より高速なダウンロードに利用します
+次のパッケージを同じディレクトリに配置してください:
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) (必須)
+- [ffmpeg](https://www.ffmpeg.org/) (オプション/推奨)
+  - 動画から音声を抽出する場合
+- [aria2c](https://aria2.github.io/) (オプション/推奨)
+  - ダウンロードを高速化する場合
+
+注: PATH に追加している場合、これらのパッケージを同じディレクトリに配置する必要はありません。
 
 ### 設定
 
